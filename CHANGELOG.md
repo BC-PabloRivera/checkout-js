@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.160.3-alpha.1627669508356](https://github.com/bigcommerce/checkout-js/compare/v1.157.0...v1.160.3-alpha.1627669508356) (2021-07-30)
+
+
+### Features
+
+* **checkout:** PAYPAL-1057 bump checkout-sdk version ([2794267](https://github.com/bigcommerce/checkout-js/commit/279426758aa0d3c0581e75fca3036b848e2c2b2b))
+* **payment:** INT-3946 added locale from browser on masterpass SRC ([9e0f669](https://github.com/bigcommerce/checkout-js/commit/9e0f6694ff15b989e493055fe75929700368cd23))
+* **payment:** INT-4605 Zip: Display special text for PaymentSubmitButton ([39df786](https://github.com/bigcommerce/checkout-js/commit/39df7860599fbfb2a4aa30285cd2d4eed8ac2627))
+* **payment:** PAYPAL-1057 added check of showOnlyOnMobileDevices APM property for Venmo ppcommerce integration ([85085db](https://github.com/bigcommerce/checkout-js/commit/85085dbdb6e076d2b3642fe5b900c0426d181c5a))
+* **payment:** PAYPAL-1090 bump checkout-sdk-js version ([7bdd1a3](https://github.com/bigcommerce/checkout-js/commit/7bdd1a3ab494ee6719631a17ceaaca9bfa307f38))
+
+
+### Bug Fixes
+
+* **customer:** CHECKOUT-5862 Fix create account flow from Checkout blocked due to cross origin frame ([#645](https://github.com/bigcommerce/checkout-js/issues/645)) ([60f97d5](https://github.com/bigcommerce/checkout-js/commit/60f97d5f1afa23d28654a1145d41202eeba2b548))
+* **payment:** INT-3946 for testing ([cd7086d](https://github.com/bigcommerce/checkout-js/commit/cd7086d111af00f276a33eaf9db9681b47c655ee))
+* **payment:** INT-3946 removed nested if condition ([c643e76](https://github.com/bigcommerce/checkout-js/commit/c643e766621c99ef45676875ae696025a8d1a703))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([86d1a2c](https://github.com/bigcommerce/checkout-js/commit/86d1a2ce7291db754f024d0ed1799bc2f7da083a))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([19e3b21](https://github.com/bigcommerce/checkout-js/commit/19e3b21a0ba3172bba92521ca597af14e18bf1b8))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([183ef46](https://github.com/bigcommerce/checkout-js/commit/183ef46a7a5e1be61b5f506bbc51778d075250f8))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([b6f0746](https://github.com/bigcommerce/checkout-js/commit/b6f074637a049c35bb74c196a5e2ec60e26ac705))
+* **payment:** INT-4598 handle vaulting Enable checkbox ([aa79f47](https://github.com/bigcommerce/checkout-js/commit/aa79f47090c1e2aad1e6a781191de2614ab16695))
+* **payment:** PAYMENTS-7169 fix broken UI post finalization error ([#654](https://github.com/bigcommerce/checkout-js/issues/654)) ([19aea53](https://github.com/bigcommerce/checkout-js/commit/19aea539bf7ea2f791702a75eba765632da607bc))
+
 ### [1.160.2](https://github.com/bigcommerce/checkout-js/compare/v1.160.1...v1.160.2) (2021-07-30)
 
 
