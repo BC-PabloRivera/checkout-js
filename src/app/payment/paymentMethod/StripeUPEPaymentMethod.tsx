@@ -16,9 +16,6 @@ export enum StripeElementType {
 }
 const StripeUPEPaymentMethod: FunctionComponent<StripePaymentMethodProps & WithInjectedHostedCreditCardFieldsetProps & WithCheckoutStripePaymentMethodProps> = ({
     initializePayment,
-    getHostedFormOptions,
-    getHostedStoredCardValidationFieldset,
-    hostedStoredCardValidationSchema,
     method,
     storeUrl,
     ...rest
